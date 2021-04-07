@@ -28,7 +28,7 @@ mongoose.connect(dbConfig.url, {
 
 // define a simple route
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to Nodejs-with-MongoDB Demo session. Take notes quickly. Organize and keep track of all your notes."});
+    res.json({"message": "This is Demo session. Take notes quickly. Organize and keep track of all your notes."});
 });
 
 require('./app/routes/note.routes.js')(app);
